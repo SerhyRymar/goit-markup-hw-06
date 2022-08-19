@@ -572,6 +572,54 @@ img {
 .footer-social-link:focus .footer-social-icon {
 	fill: var(--primary-white-color);
 }
+.footer-subscr {
+	display: block;
+	margin-left: 73px;
+}
+.footer-label {
+	background: #2F303A;
+}
+.footer-input {
+	width: 358px;
+	height: 50px;
+	padding-left: 16px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+	background-color: #2F303A;
+}
+.footer-input:focus,
+.footer-input:hover {
+	border-color: 1px solid rgba(255, 255, 255, 0.3);
+}
+.btn-subscr {
+display: inline-flex;
+align-items: center;
+
+margin-left: 12px;
+width: 200px;
+height: 50px;
+padding-left: 28px;
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: none;
+color: var(--primary-white-color);
+cursor: pointer;
+}
+.btn-subscr::after {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin-left: 10px;
+	background-image: url(../images/icon-send.svg);
+}
 /* --------------------------PAGE-PORTFOLIO------------------------ */
 .btn {
 	font-weight: 500;
